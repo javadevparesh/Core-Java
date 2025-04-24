@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>GitProjectCoreJava</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>CoreJava-Concepts</name>
+			<type>2</type>
+			<location>I:/ASHOK-IT/STS-Workspace/General-Java/GitCoreJava/Core-Java/CoreJava-Concepts</location>
+		</link>
+		<link>
+			<name>Interview-Practice</name>
+			<type>2</type>
+			<location>I:/ASHOK-IT/STS-Workspace/General-Java/GitCoreJava/Core-Java/Interview-Practice</location>
+		</link>
+	</linkedResources>
+</projectDescription>
