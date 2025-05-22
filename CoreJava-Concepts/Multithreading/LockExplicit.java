@@ -37,7 +37,7 @@ class BankAccountLock {
 		System.out.println(Thread.currentThread().getName() + " attempting to withdraw " + amount);
 		try {
 			if (lock.tryLock(1000, TimeUnit.MILLISECONDS)) { // To get lock, Will wait for 1000-miliSeconds
-				if (balance >= amount) { // If 'true' will execute 'if block' else
+				if (balance >= amount) { 	// If 'true', will execute 'if block' else
 											// If 'false' (lock doesn't become available) exception will be thrown
 					try {
 						System.out.println(Thread.currentThread().getName() + " Proceeding with withdrawal");

@@ -12,7 +12,13 @@ public class ThreadComm {
 		consumerThread.start();
 	}
 }
-
+/*
+* 
+* wait(): tells current thread to release lock and wait until other thread doesn't call 'notify()' or 'notifyAll()'
+* notify(): wakes-up a single thread that is waiting.
+* notifyAll(): wakes-up all threads that are waiting.
+* 
+*/
 class SharedResource{
 	
 	private int data;
@@ -51,6 +57,7 @@ class SharedResource{
 	}
 }
 
+// Producer thread
 class Producer implements Runnable{
 	
 	private SharedResource resource;
@@ -67,6 +74,7 @@ class Producer implements Runnable{
 	}
 }
 
+//Consumer thread
 class Consumer implements Runnable{
 	
 	private SharedResource resource;
